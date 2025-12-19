@@ -207,3 +207,6 @@ notebooks/.ipynb_checkpoints/
 
 # Local scripts
 scripts/local_*.sh
+
+# docs
+docs/
