@@ -3,4 +3,7 @@ name = "flink-poc"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "kafka-python>=2.0.2",
+    "python-dotenv>=1.2.1",
+]
