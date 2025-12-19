@@ -19,7 +19,7 @@ Data Sources → Kafka → Flink (Processing) → ClickHouse (OLAP) + PostgreSQL
 - [ ] **Event-Driven Architecture**: Article on event streaming patterns (Confluent blog recommended)
 
 ### What to Build (1.5 hours)
-- [ ] Set up Docker Compose with Kafka + Zookeeper
+- [ ] Set up Docker Compose with Kafka 
 - [ ] Create a simple Python producer that sends test messages to a Kafka topic
 - [ ] Create a simple Python consumer that reads from the topic
 - [ ] Verify messages flow through the system

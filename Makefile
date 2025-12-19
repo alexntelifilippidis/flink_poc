@@ -17,35 +17,35 @@ help:
 
 # Start services
 up:
-	cd docker && podman-compose up -d
+	 podman-compose up -d
 
 # Stop services
 down:
-	cd docker && podman-compose down
+	 podman-compose down
 
 # Restart services
 restart:
-	cd docker && podman-compose restart
+	 podman-compose restart
 
 # View logs
 logs:
-	cd docker && podman-compose logs
+	 podman-compose logs
 
 # Follow logs
 logs-f:
-	cd docker && podman-compose logs -f
+	 podman-compose logs -f
 
 # List running containers
 ps:
-	cd docker && podman-compose ps
+	 podman-compose ps
 
 # Show status
 status:
-	cd docker && podman-compose ps
+	 podman-compose ps
 
 # Clean up everything
 clean:
-	cd docker && podman-compose down -v
+	 podman-compose down -v
 
 # Open Kafka UI in browser
 kafka-ui:
@@ -54,9 +54,9 @@ kafka-ui:
 
 # View Kafka logs
 kafka-logs:
-	cd docker && podman-compose logs -f kafka
+	 podman-compose logs -f kafka
 
 # View Zookeeper logs
 zk-logs:
-	cd docker && podman-compose logs -f zookeeper
+	 podman-compose logs -f zookeeper
 
